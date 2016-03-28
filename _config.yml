@@ -49,6 +49,11 @@ url:
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+# In order to add markdown links pointing to with-in repository
+# data files or other content, fill in the following fields
+githubuser: 
+websiterepo: 
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
