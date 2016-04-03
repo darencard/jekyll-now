@@ -14,7 +14,7 @@ Here are written lessons of the concepts taught at the UT-Arlington Software Car
 Before beginning, students should
 
    1. Create a directory on their Desktop called 'SCW_April2016'.
-   2. Download the [zipped input files](https://raw.githubusercontent.com/{{ site.github }}/{{ site.github }}.github.io/data/input_data.zip).
+   2. Download the [zipped input files](https://raw.githubusercontent.com/{{ site.githubuser }}/{{ site.githubuser }}.github.io/data/input_data.zip).
    3. Unzip the download and move it into the 'SCW_April2016' directory.
    
 **Sections**
@@ -548,7 +548,7 @@ Now let's start from scratch, to a degree, by reading in a our tabular data usin
 
 ```python
 # let's read our working data in again using pandas
-data = pd.read_csv('Desktop/SCW/Test/Main_data.csv')
+data = pd.read_csv('Desktop/SCW/Test/OECD_data_25Countries_Full.csv')
 
 # now we can gather a basic understanding of our data using a few commands
 data.head()                      # show first five rows-default
