@@ -13,8 +13,6 @@ Here are written lessons of the concepts taught at the UT-Arlington Software Car
 
 Before beginning, students should
 
-https://github.com/dccard/dccard.github.io/raw/master/data/input_data.zip
-
    1. Create a directory on their Desktop called 'SCW_April2016'.
    2. Download the [zipped input files](https://github.com/{{ site.githubuser }}/{{ site.githubuser }}.github.io/raw/master/data/input_data.zip).
    3. Unzip the download and move it into the 'SCW_April2016' directory.
