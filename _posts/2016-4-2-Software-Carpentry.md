@@ -3,7 +3,7 @@ layout: post
 title: UTA Software Carpentry Lessons
 ---
 
-**Authors**: Compiled and organized by Daren Card with input from Anna Williford, Mehdi Eslamieh, X.
+**Authors**: Compiled and organized by Daren Card with input from Anna Williford, Mehdi Eslamieh, Devendra Umbrajkar, Kevin Vilbig & Gaurav Kolekar.
 
 **License**: GNU GPLv2
 
