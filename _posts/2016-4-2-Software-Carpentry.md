@@ -29,7 +29,7 @@ Before beginning, students should
 # Getting acquainted with the Bash shell environment
 
 ## Motivation
-The Unix shell has been in existence for decades and is therefore one of the most powerful piece of software one can learn for data analysis. This is not only due to the fact it provides a powerful means of directly manipulating data. It can be used to write analysis scripts to automate data analysis. It is also the direct interface to most open-source software written for data analysis in the sciences. Therefore, even if you end up using Python or R for a lot of data analysis, you will also interact frequently with the Unix shell.
+The Unix shell has been in existence for decades and is therefore one of the most powerful pieces of software one can learn for data analysis. This is not only due to the fact it provides a powerful means of directly manipulating data. It can be used to write analysis scripts to automate data analysis. It is also the direct interface to most open-source software written for data analysis in the sciences. Therefore, even if you end up using Python or R for a lot of data analysis, you will also interact frequently with the Unix shell.
 
 ## Overview of Lesson
 Learners will explore the following concepts.
@@ -44,7 +44,7 @@ Learners will explore the following concepts.
 ## Using the Bash shell
 The Bash Shell may be new to most users and represents one of many command-line interfaces (CLIs) in use. It provides the ability to run programs and to write new programs. Apple and Linux users can access their Bash shell by opening the terminal and typing `bash`. Windows users will have to install and open `git-bash`.
 
-Bash follows a Read-Evaluate-Print loop, meaning the computer reads input from the user, executes it, and prints the output of the process. The user provides the input at the prompt, which usually ends with `$`. Let's get familiar with this.
+Bash follows a Read-Evaluate-Print loop, meaning the computer reads input from the user, executes it, and prints the output of the process. The user provides the input at the prompt, which usually ends with `$`, which we've left out on all commands below. Let's get familiar with this.
 
 ```bash
 # '#' here and everywhere should be interpreted as comment
@@ -922,7 +922,33 @@ Now if we look at our website, we can view all of the lesson writeups, complete 
 
 Let's say that you have a friend who also took the Software Carpentry workshop, but who had to leave a little bit early. Therefore, he or she didn't get a chance to properly add the output data to their website repository and has since deleted it. They ask you to help them out. Normally, one may just email the file over, but GitHub offers an alternative method of getting this data to your friend, with the added benefit of placing it directly into the correct location within your friend's repository. This method is called a Pull Request.
 
-To perform a Pull Request, you must first navigate to your friend's website repository. Click the 'New pull request' button above the file list.
+To perform a Pull Request, you must first navigate to your friend's website repository. Click the 'New pull request' button above the file list. On the next page you will see a few pieces of important information. The bar along the top displays the forks and branches that are to be merged. The 'base fork' should be your friend's repository where you are trying to send your updates. The 'base' refers to the branch on that repository you are merging too, which will almost always be 'master'. The 'head fork' is your updated repository with the changes you are trying to send to your friend. In this case, you are comparing your 'master' branch with your friend's repository. Below you will see information on the number of updated commits and files, information that should match your expectations. When working with text files, like scripts, you should also see an intuitive graphic showing the change, with subtractions indicated in red with a '-' sign and additions indicated in green with a '+' sign. Github makes some checks to be sure that you can merge these forks together (see "Able to merge" in the above bar, but you should use this page to make sure you are happy with the changes you are sending to your friend's repository. Once satisfied, you can press the 'Create pull request' button near the top of the page.
+
+On the next page you will see a text box with a subject line, much like an email message. This is what you use to provide information on the Pull Request you are undertaking, so that the other use can easily know the basics of what you are contributing. In the subject/header line you should write a brief, but informative, phrase about the changes occurring. If you would like to add more information, you can use the large text block below to provide more details. In this text block, it is possible to use markdown to render your information, and you can use the preview button to see what this will look like. Take a minute to create an informative message and comment to your friend and click 'Create pull request' near the bottom of the page.
+
+Finally, you will see a confirmation/summary page about the Pull Request you just completed. GitHub again gives you the option of leaving a comment to help others understand your changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
