@@ -7,7 +7,7 @@ title: UTA Software Carpentry Lessons
 
 **License**: GNU GPLv2
 
-**Adapted from**: [Software Carpentry](http://swcarpentry.github.io/shell-novice/), [Bruno Grande](https://github.com/brunogrande/lesson-github-pages/blob/master/lesson/lesson.md)
+**Adapted from**: [Software Carpentry](http://software-carpentry.org/), [Data Carpentry](http://www.datacarpentry.org/), & [Bruno Grande](https://github.com/brunogrande/lesson-github-pages/blob/master/lesson/lesson.md)
 
 Here are written lessons of the concepts taught at the UT-Arlington Software Carpentry workshop. These should provide enough details to allow you to essentially retake the course by yourself. Github can be used to make suggestions for improvements to these materials. We hope everyone found the workshop enjoyable and stimulating.
 
