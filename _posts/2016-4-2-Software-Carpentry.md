@@ -928,11 +928,11 @@ Let's say that you have a friend who also took the Software Carpentry workshop, 
 
 To perform a Pull Request, you must first navigate to your friend's website repository. Click the 'New pull request' button above the file list. 
 
-![Pull request page #1]({{ site.baseurl }}/images/pull_request1.tiff)
+![Pull request page #1]({{ site.baseurl }}/images/pull_request1.jpg)
 
 On the next page you will see a few pieces of important information. The bar along the top displays the forks and branches that are to be merged. The 'base fork' should be your friend's repository where you are trying to send your updates. The 'base' refers to the branch on that repository you are merging too, which will almost always be 'master'. The 'head fork' is your updated repository with the changes you are trying to send to your friend. In this case, you are comparing your 'master' branch with your friend's repository. Below you will see information on the number of updated commits and files, information that should match your expectations. When working with text files, like scripts, you should also see an intuitive graphic showing the change, with subtractions indicated in red with a '-' sign and additions indicated in green with a '+' sign. Github makes some checks to be sure that you can merge these forks together (see "Able to merge" in the above bar, but you should use this page to make sure you are happy with the changes you are sending to your friend's repository. Once satisfied, you can press the 'Create pull request' button near the top of the page.
 
-![Pull request page #1]({{ site.baseurl }}/images/pull_request2.tiff)
+![Pull request page #2]({{ site.baseurl }}/images/pull_request2.jpg)
 
 On the next page you will see a text box with a subject line, much like an email message. This is what you use to provide information on the Pull Request you are undertaking, so that the other use can easily know the basics of what you are contributing. In the subject/header line you should write a brief, but informative, phrase about the changes occurring. If you would like to add more information, you can use the large text block below to provide more details. In this text block, it is possible to use markdown to render your information, and you can use the preview button to see what this will look like. Take a minute to create an informative message and comment to your friend and click 'Create pull request' near the bottom of the page.
 
@@ -940,7 +940,7 @@ Finally, you will see a confirmation/summary page about the Pull Request you jus
 
 Before your changes can be incorporated, your friend must actually 'Merge' your Pull Request. He or she must log into his or her account and should see a notification that a Pull Request is pending. This will take your friend to a page like that below, where he or she can view the changes you propoed. 
 
-![Pull request page #1]({{ site.baseurl }}/images/pull_request3.tiff)
+![Pull request page #3]({{ site.baseurl }}/images/pull_request3.jpg)
 
 The 'Conversation' tab contains the description of the pull request you gave when you created it, and users can use this space to converse about potential changes over a series of messages, if needed. The 'Commits' and 'Files changed' tabs are can be used to view the commits made and the actual file changes, using an environment that is similar to what you interacted with during your Pull Reqeust. When your friend is satisfied that he or she wants to accept your Pull Request, he or she can click 'Merge pull request'. If the changes aren't appropriate after some conversation, he or she can instead click 'Close pull request'. Upon accepting a pull request, your changed file(s) will be incorporated into your friend's repository, and his or her website should update to reflect the changes. Basically, your friend's website will now contain an active link to the output data that he or she was missing.
 
